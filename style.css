@@ -7,6 +7,9 @@ body{
     width: 1366px;
     position: relative;
     margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 .header{
@@ -18,7 +21,8 @@ body{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 40px auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
 }
 
 .title{
@@ -62,8 +66,34 @@ body{
     color: hsl(229, 25%, 31%);
 }
 
+#screen{
+    margin: 0;
+    border:1px solid white;
+}
+
+.rules{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 5px;
+    color: white;
+}
+
+.rules:hover{
+    border: 8px solid hsl(217, 16%, 45%);
+}
+
+.rules:active{
+    border: 8px solid hsl(217, 16%, 45%);
+    background-color: hsl(217, 16%, 45%);
+}
+
 @media screen and (max-width: 1370px) {
     .Ui{
-        width: 95vw;
+        width: 95%;
     }
 }
