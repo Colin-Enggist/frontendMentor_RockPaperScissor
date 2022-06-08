@@ -1,39 +1,39 @@
 {
     "images":{
         "triangle":{
-            "path": "../../images/bg-triangle.svg",
+            "path": "../images/bg-triangle.svg",
             "x": "250",
             "y":"130"
         },
         "pentagon":{
-            "path":"../../images/bg-pentagon.svg"
+            "path":"../images/bg-pentagon.svg"
         },
         "rock":{
-            "path": "../../images/icon-rock.svg",
+            "path": "../images/icon-rock.svg",
             "x": "380",
             "y":"360"
         },
         "paper":{
-            "path": "../../images/icon-paper.svg",
+            "path": "../images/icon-paper.svg",
             "x": " 235",
             "y":"100"
         },
         "scissors":{
-            "path": "../../images/icon-scissors.svg",
+            "path": "../images/icon-scissors.svg",
             "x": " 520",
             "y":"100"
         },
         "lizard":{
-            "path":"../../images/icon-lizard.svg"
+            "path":"../images/icon-lizard.svg"
         },
         "spock":{
-            "path":"../../images/icon-spock.svg"
+            "path":"../images/icon-spock.svg"
         },
         "rulesRPS":{
-            "path":"../../images/image-rules.svg"
+            "path":"../images/image-rules.svg"
         },
         "rulesRPSLS":{
-            "path":"../../images/image-rules-bonus.svg"
+            "path":"../images/image-rules-bonus.svg"
         }
     },
     "Arcs":{
