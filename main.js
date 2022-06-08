@@ -1,5 +1,5 @@
 import stepOne from "./modules/stepOne.js";
-
+//ctx.createLinearGradient(50, 0, 50, 100)
 
 const screen = document.getElementById("screen");
 const ctx = screen.getContext("2d");
