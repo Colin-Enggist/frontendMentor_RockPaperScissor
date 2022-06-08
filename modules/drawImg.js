@@ -10,5 +10,4 @@ export default function drawImg(i){
         ctx.drawImage(img[i].path, img[i].x, img[i].y);
         console.log("imageDrawn")
     }
-   
 }

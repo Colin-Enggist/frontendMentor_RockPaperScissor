@@ -1,12 +1,22 @@
 import drawArc from "./drawArc.js";
-import drawImg from "./drawImg.js";
+
+
+let Rock = ()=>{
+    drawArc(0);
+}
+
+let Paper = ()=>{
+    drawArc(1);
+}
+
+let Scissors = ()=>{
+    drawArc(2);
+}
 
 export default function stepOne() {
-  drawImg(0);
-  drawImg(1);
-  drawArc(0);
-  drawImg(2);
-  drawArc(1);
-  drawImg(3);
-  drawArc(2);
+  
+  Rock();
+  Paper();
+  Scissors();
+
 }
