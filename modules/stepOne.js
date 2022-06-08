@@ -1,5 +1,5 @@
-import drawArc from "./drawArc.js";
-
+import drawArc from "./drawHandlers/drawArc.js";
+import drawBackground from "./drawHandlers/drawBackground.js";
 
 let Rock = ()=>{
     drawArc(0);
@@ -14,9 +14,11 @@ let Scissors = ()=>{
 }
 
 export default function stepOne() {
+   
+    drawBackground(0);
+    Rock();
+    Paper();
+    Scissors();
+   
   
-  Rock();
-  Paper();
-  Scissors();
-
 }
