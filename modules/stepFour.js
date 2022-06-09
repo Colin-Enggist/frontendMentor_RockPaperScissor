@@ -1,5 +1,7 @@
 import { ctx, screen } from "../main.js";
 import drawText from "./canvasHandlers/drawtext.js";
+import stepOne from "./stepOne.js";
+import updateScore from "./updateScore.js";
 
 export default function steopFour(person, House){
 
@@ -8,8 +10,27 @@ export default function steopFour(person, House){
         ctx.fillStyle = "white";
         ctx.fill();
 
-        function win(){return drawText('PLAY AGAIN', 345, 280, 'win');}
-        function loose(){return drawText('PLAY AGAIN', 345, 280, 'loose');}
+        function win(){
+            updateScore("win");
+            return drawText('PLAY AGAIN', 345, 280, 'win');}
+        function loose(){
+            updateScore("loose");
+            return drawText('PLAY AGAIN', 345, 280, 'loose');}
+        screen.addEventListener("click", e=>{
+            const elementRelativeX = e.offsetX;
+            const elementRelativeY = e.offsetY;
+            const canvasRelativeX = (elementRelativeX * screen.width) / screen.clientWidth;
+            const canvasRelativeY = (elementRelativeY * screen.height) / screen.clientHeight;
+
+            if(canvasRelativeX >= 315 && 
+                canvasRelativeX <= 470 && 
+                canvasRelativeY >= 250 &&
+                canvasRelativeY <= 290 ){
+                    ctx.clearRect(0, 0, screen.width, screen.height);
+                    stepOne();
+                }
+
+        })
 
     switch (person){
         case "rock":
