@@ -37,52 +37,52 @@
         },
         "rockP":{
             "path": "../images/icon-rock.svg",
-            "x": "215",
+            "x": "165",
             "y":"240"
         },
         "paperP":{
             "path": "../images/icon-paper.svg",
-            "x": "215",
+            "x": "165",
             "y":"230"
         },
         "scissorsP":{
             "path": "../images/icon-scissors.svg",
-            "x": "215",
+            "x": "165",
             "y":"230"
         },
         "lizardP":{
             "path":"../images/icon-lizard.svg",
-            "x": "215",
+            "x": "165",
             "y":"230"
         },
         "spockP":{
             "path":"../images/icon-spock.svg",
-            "x": "215",
+            "x": "165",
             "y":"230"
         },
         "rockC":{
             "path": "../images/icon-rock.svg",
-            "x": "520",
+            "x": "570",
             "y":"240"
         },
         "paperC":{
             "path": "../images/icon-paper.svg",
-            "x": "520",
+            "x": "570",
             "y":"230"
         },
         "scissorsC":{
             "path": "../images/icon-scissors.svg",
-            "x": "520",
+            "x": "570",
             "y":"230"
         },
         "lizardC":{
             "path":"../images/icon-lizard.svg",
-            "x": "520",
+            "x": "570",
             "y":"230"
         },
         "spockC":{
             "path":"../images/icon-spock.svg",
-            "x": "520",
+            "x": "570",
             "y":"230"
         }
     },
@@ -116,42 +116,42 @@
         "rockArcTwoP":{
             "colorstop0":"hsl(349, 71%, 52%)",
             "colorstop1":"hsl(349, 70%, 56%)",
-            "x":"240",
+            "x":"190",
             "y": "260"
         },
         "paperArcTwoP":{
             "colorstop0":"hsl(230, 89%, 62%)",
             "colorstop1":"hsl(230, 89%, 65%)",
-            "x":"240",
+            "x":"190",
             "y": "260"
         },
         "scissorsArcTwoP":{
             "colorstop0":"hsl(39, 89%, 49%)",
             "colorstop1":"hsl(40, 84%, 53%)",
-            "x":"240",
+            "x":"190",
             "y": "260"
         },
         "rockArcTwoC":{
             "colorstop0":"hsl(349, 71%, 52%)",
             "colorstop1":"hsl(349, 70%, 56%)",
-            "x":"540",
+            "x":"590",
             "y": "260"
         },
         "paperArcTwoC":{
             "colorstop0":"hsl(230, 89%, 62%)",
             "colorstop1":"hsl(230, 89%, 65%)",
-            "x":"540",
+            "x":"590",
             "y": "260"
         },
         "scissorsArcTwoC":{
             "colorstop0":"hsl(39, 89%, 49%)",
             "colorstop1":"hsl(40, 84%, 53%)",
-            "x":"540",
+            "x":"590",
             "y": "260"
         },
         "emptyC":{
             "color":"hsl(229, 25%, 31%)",
-            "x":"540",
+            "x":"590",
             "y":"260"
         }
     }

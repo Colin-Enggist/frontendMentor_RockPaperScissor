@@ -47,5 +47,4 @@ screen.addEventListener("click", (e) => {
   ) {
     stepTwo("scissors");
   }
-  console.log(canvasRelativeX, canvasRelativeY);
 });

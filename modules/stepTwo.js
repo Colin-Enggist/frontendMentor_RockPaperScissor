@@ -7,8 +7,8 @@ import stepThree from "./stepThree.js";
 export default function stepTwo(player){
     ctx.clearRect(0, 0, screen.width, screen.height)
     drawArcs(data.Arcs.emptyC);
-    drawText('YOU PICKED', 190, 130);
-    drawText('THE HOUSEPICKED', 463, 130);
+    drawText('YOU PICKED', 140, 130, "paragraph");
+    drawText('THE HOUSEPICKED', 513, 130, "paragraph");
     if(player === "paper"){
         ctx.save();
         drawArcs(data.Arcs.paperArcTwoP)
