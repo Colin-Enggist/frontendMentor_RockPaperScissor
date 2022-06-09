@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Kokossnuss/frontendMentor_RockPaperScissor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [deployed](https://kokossnuss.github.io/frontendMentor_RockPaperScissor/)
 
 ### Built with
 
