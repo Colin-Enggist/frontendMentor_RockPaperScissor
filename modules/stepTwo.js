@@ -1,17 +1,13 @@
 import { ctx, data, } from "../main.js";
 import drawArcs from "./canvasHandlers/drawArcs.js";
 import drawImg from "./canvasHandlers/drawImg.js";
+import drawText from "./canvasHandlers/drawtext.js";
 
 export default function stepTwo(player){
     ctx.clearRect(0, 0, screen.width, screen.height)
-    ctx.beginPath();
-    ctx.arc(240, 260, 70, 0, 2*Math.PI)
-    ctx.fillStyle= "hsl(229, 25%, 31%)";
-    ctx.fill();
-    ctx.beginPath();
-    ctx.arc(540, 260, 70, 0, 2*Math.PI)
-    ctx.fillStyle= "hsl(229, 25%, 31%)";
-    ctx.fill();
+    drawArcs(data.Arcs.emptyC);
+    drawText('YOU PICKED', 193, 130);
+    drawText('THE HOUSEPICKED', 463, 130);
     if(player === "paper"){
         ctx.save();
         drawArcs(data.Arcs.paperArcTwoP)
