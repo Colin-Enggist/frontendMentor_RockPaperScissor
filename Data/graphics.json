@@ -59,6 +59,31 @@
             "path":"../images/icon-spock.svg",
             "x": "215",
             "y":"230"
+        },
+        "rockC":{
+            "path": "../images/icon-rock.svg",
+            "x": "520",
+            "y":"240"
+        },
+        "paperC":{
+            "path": "../images/icon-paper.svg",
+            "x": "520",
+            "y":"230"
+        },
+        "scissorsC":{
+            "path": "../images/icon-scissors.svg",
+            "x": "520",
+            "y":"230"
+        },
+        "lizardC":{
+            "path":"../images/icon-lizard.svg",
+            "x": "520",
+            "y":"230"
+        },
+        "spockC":{
+            "path":"../images/icon-spock.svg",
+            "x": "520",
+            "y":"230"
         }
     },
     "Arcs":{

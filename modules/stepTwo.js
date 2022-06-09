@@ -2,11 +2,12 @@ import { ctx, data, } from "../main.js";
 import drawArcs from "./canvasHandlers/drawArcs.js";
 import drawImg from "./canvasHandlers/drawImg.js";
 import drawText from "./canvasHandlers/drawtext.js";
+import stepThree from "./stepThree.js";
 
 export default function stepTwo(player){
     ctx.clearRect(0, 0, screen.width, screen.height)
     drawArcs(data.Arcs.emptyC);
-    drawText('YOU PICKED', 193, 130);
+    drawText('YOU PICKED', 190, 130);
     drawText('THE HOUSEPICKED', 463, 130);
     if(player === "paper"){
         ctx.save();
@@ -28,4 +29,5 @@ export default function stepTwo(player){
     }
 
     console.log(player)
+    setTimeout(()=>{stepThree(player)}, 1400);
 };
