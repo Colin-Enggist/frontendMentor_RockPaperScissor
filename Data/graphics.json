@@ -34,6 +34,31 @@
         },
         "rulesRPSLS":{
             "path":"../images/image-rules-bonus.svg"
+        },
+        "rockP":{
+            "path": "../images/icon-rock.svg",
+            "x": "215",
+            "y":"240"
+        },
+        "paperP":{
+            "path": "../images/icon-paper.svg",
+            "x": "215",
+            "y":"230"
+        },
+        "scissorsP":{
+            "path": "../images/icon-scissors.svg",
+            "x": "215",
+            "y":"230"
+        },
+        "lizardP":{
+            "path":"../images/icon-lizard.svg",
+            "x": "215",
+            "y":"230"
+        },
+        "spockP":{
+            "path":"../images/icon-spock.svg",
+            "x": "215",
+            "y":"230"
         }
     },
     "Arcs":{
@@ -62,6 +87,43 @@
         "spockArc":{
             "colorstop0":"hsl(189, 59%, 53%)",
             "colorstop1":"hsl(189, 58%, 57%)"
+        },
+        "rockArcTwoP":{
+            "colorstop0":"hsl(349, 71%, 52%)",
+            "colorstop1":"hsl(349, 70%, 56%)",
+            "x":"240",
+            "y": "260"
+        },
+        "paperArcTwoP":{
+            "colorstop0":"hsl(230, 89%, 62%)",
+            "colorstop1":"hsl(230, 89%, 65%)",
+            "x":"240",
+            "y": "260"
+        },
+        "scissorsArcTwoP":{
+            "colorstop0":"hsl(39, 89%, 49%)",
+            "colorstop1":"hsl(40, 84%, 53%)",
+            "x":"240",
+            "y": "260"
+        },
+        "rockArcTwoC":{
+            "colorstop0":"hsl(349, 71%, 52%)",
+            "colorstop1":"hsl(349, 70%, 56%)",
+            "x":"540",
+            "y": "260"
+        },
+        "paperArcTwoC":{
+            "colorstop0":"hsl(230, 89%, 62%)",
+            "colorstop1":"hsl(230, 89%, 65%)",
+            "x":"540",
+            "y": "260"
+        },
+        "scissorsArcTwoC":{
+            "colorstop0":"hsl(39, 89%, 49%)",
+            "colorstop1":"hsl(40, 84%, 53%)",
+            "x":"540",
+            "y": "260"
         }
+
     }
 }
