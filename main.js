@@ -1,7 +1,9 @@
+import rules from "./modules/buttonHandlers/rules.js";
 import stepOne from "./modules/stepOne.js";
 import stepTwo from "./modules/stepTwo.js";
 //ctx.createLinearGradient(50, 0, 50, 100)
 
+let rulesBtn =  document.getElementById("rules")
 const screen = document.getElementById("screen");
 const ctx = screen.getContext("2d");
 let data;
@@ -13,6 +15,10 @@ fetch("https://kokossnuss.github.io/frontendMentor_RockPaperScissor/Data/graphic
     data = JSON.parse(y);
     stepOne();
   });
+
+  rulesBtn.onclick = ()=>{
+    rules();
+  }
 
 screen.addEventListener("click", (e) => {
   const elementRelativeX = e.offsetX;
