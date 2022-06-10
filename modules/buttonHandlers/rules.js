@@ -8,7 +8,7 @@ export default function rules(){
     rules.onload = ()=>{
         ctx.clearRect(0, 0, screen.width, screen.height);
         ctx.beginPath();
-        ctx.rect(235, 100, 330, 230);
+        ctx.rect(235, 100, 330, 380);
         ctx.fillStyle = "white";
         ctx.fill();
         ctx.drawImage(rules, 252, 115);
