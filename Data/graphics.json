@@ -1,87 +1,87 @@
 {
     "images":{
         "triangle":{
-            "path": "../images/bg-triangle.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/bg-triangle.svg",
             "x": "250",
             "y":"130"
         },
         "pentagon":{
-            "path":"../images/bg-pentagon.svg"
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/bg-pentagon.svg"
         },
         "rock":{
-            "path": "../images/icon-rock.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-rock.svg",
             "x": "380",
             "y":"360"
         },
         "paper":{
-            "path": "../images/icon-paper.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-paper.svg",
             "x": " 235",
             "y":"100"
         },
         "scissors":{
-            "path": "../images/icon-scissors.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-scissors.svg",
             "x": " 520",
             "y":"100"
         },
         "lizard":{
-            "path":"../images/icon-lizard.svg"
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-lizard.svg"
         },
         "spock":{
-            "path":"../images/icon-spock.svg"
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-spock.svg"
         },
         "rulesRPS":{
-            "path":"../images/image-rules.svg"
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/image-rules.svg"
         },
         "rulesRPSLS":{
-            "path":"../images/image-rules-bonus.svg"
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/image-rules-bonus.svg"
         },
         "rockP":{
-            "path": "../images/icon-rock.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-rock.svg",
             "x": "165",
             "y":"240"
         },
         "paperP":{
-            "path": "../images/icon-paper.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-paper.svg",
             "x": "165",
             "y":"230"
         },
         "scissorsP":{
-            "path": "../images/icon-scissors.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-scissors.svg",
             "x": "165",
             "y":"230"
         },
         "lizardP":{
-            "path":"../images/icon-lizard.svg",
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-lizard.svg",
             "x": "165",
             "y":"230"
         },
         "spockP":{
-            "path":"../images/icon-spock.svg",
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-spock.svg",
             "x": "165",
             "y":"230"
         },
         "rockC":{
-            "path": "../images/icon-rock.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-rock.svg",
             "x": "570",
             "y":"240"
         },
         "paperC":{
-            "path": "../images/icon-paper.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-paper.svg",
             "x": "570",
             "y":"230"
         },
         "scissorsC":{
-            "path": "../images/icon-scissors.svg",
+            "path": "https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-scissors.svg",
             "x": "570",
             "y":"230"
         },
         "lizardC":{
-            "path":"../images/icon-lizard.svg",
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-lizard.svg",
             "x": "570",
             "y":"230"
         },
         "spockC":{
-            "path":"../images/icon-spock.svg",
+            "path":"https://kokossnuss.github.io/frontendMentor_RockPaperScissor/images/icon-spock.svg",
             "x": "570",
             "y":"230"
         }
