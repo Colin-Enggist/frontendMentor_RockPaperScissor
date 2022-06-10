@@ -18,7 +18,6 @@ export default function rules(){
     screen.addEventListener("click", ()=>{
         ctx.clearRect(0, 0, screen.width, screen.height);
         stepOne();
-        return
     })
    
 }
