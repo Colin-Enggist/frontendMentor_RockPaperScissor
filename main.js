@@ -7,7 +7,7 @@ const ctx = screen.getContext("2d");
 let data;
 export { screen, ctx, data };
 
-fetch("/Data/graphics.json")
+fetch("./Data/graphics.json")
   .then((x) => x.text())
   .then((y) => {
     data = JSON.parse(y);
