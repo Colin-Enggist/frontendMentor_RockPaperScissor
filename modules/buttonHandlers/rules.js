@@ -12,11 +12,13 @@ export default function rules(){
         ctx.fillStyle = "white";
         ctx.fill();
         ctx.drawImage(rules, 252, 115);
-        screen.addEventListener("click", ()=>{
-            ctx.clearRect(0, 0, screen.width, screen.height);
-            return stepOne();
-        })
+        
         
     }
+    screen.addEventListener("click", ()=>{
+        ctx.clearRect(0, 0, screen.width, screen.height);
+        stepOne();
+        return
+    })
    
 }
