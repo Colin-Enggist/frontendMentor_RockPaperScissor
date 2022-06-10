@@ -4,8 +4,8 @@ export default function rules(){
     let rules = new Image()
     rules.src = data.images.rulesRPS
 
-    rules.onload(function (){
+    rules.onload = ()=>{
         alert(rules);
-    })
+    }
    
 }
