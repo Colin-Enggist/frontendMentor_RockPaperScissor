@@ -5,7 +5,9 @@ export default function rules(){
     rules.src = data.images.rulesRPS.path
 
     rules.onload = ()=>{
-        alert(rules);
+        let display = document.createElement("img")
+        display.appendChild(rules)
+        alert(display);
     }
    
 }
