@@ -7,7 +7,7 @@ const ctx = screen.getContext("2d");
 let data;
 export { screen, ctx, data };
 
-fetch("./Data/graphics.json")
+fetch("https://kokossnuss.github.io/frontendMentor_RockPaperScissor/Data/graphics.json")
   .then((x) => x.text())
   .then((y) => {
     data = JSON.parse(y);
@@ -48,3 +48,4 @@ screen.addEventListener("click", (e) => {
     stepTwo("scissors");
   }
 });
+
